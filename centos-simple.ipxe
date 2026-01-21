@@ -1,5 +1,0 @@
-#!ipxe
-
-kernel http://mirror2.hs-esslingen.de/centos/7/os/x86_64/images/pxeboot/vmlinuz initrd=initrd.img inst.repo=http://mirror2.hs-esslingen.de/centos/7/os/x86_64 inst.text ip=dhcp inst.ks=https://raw.githubusercontent.com/audiusGmbH/ipxe/master/simple.cfg
-initrd http://mirror2.hs-esslingen.de/centos/7/os/x86_64/images/pxeboot/initrd.img
-boot
