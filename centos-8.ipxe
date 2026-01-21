@@ -1,5 +1,5 @@
 #!ipxe
 
-kernel http://mirror2.hs-esslingen.de/centos/8/BaseOS/x86_64/os/images/pxeboot/vmlinuz initrd=initrd.img console=ttyS0,115200n8 inst.repo=http://mirror2.hs-esslingen.de/centos/8/BaseOS/x86_64/os/ inst.text ip=dhcp inst.ks=https://raw.githubusercontent.com/audiusGmbH/ipxe/master/centos-8.cfg
+kernel http://mirror2.hs-esslingen.de/centos/8/BaseOS/x86_64/os/images/pxeboot/vmlinuz initrd=initrd.img console=ttyS0,115200n8 inst.repo=http://mirror2.hs-esslingen.de/centos/8/BaseOS/x86_64/os/ inst.text ip=dhcp inst.ks=https://raw.githubusercontent.com/audius/ipxe/master/centos-8.cfg
 initrd http://mirror2.hs-esslingen.de/centos/8/BaseOS/x86_64/os/images/pxeboot/initrd.img
 boot
