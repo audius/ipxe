@@ -1,0 +1,5 @@
+#!ipxe
+
+kernel http://mirror.hs-esslingen.de/Mirrors/rocky/10/BaseOS/x86_64/os/images/pxeboot/vmlinuz initrd=initrd.img console=ttyS0,115200n8 inst.repo=http://mirror.hs-esslingen.de/Mirrors/rocky/10/BaseOS/x86_64/os/ inst.text ip=dhcp inst.ks=https://raw.githubusercontent.com/audius/ipxe/master/rocky-10.cfg
+initrd http://mirror.hs-esslingen.de/Mirrors/rocky/10/BaseOS/x86_64/os/images/pxeboot/initrd.img
+boot
