@@ -9,11 +9,11 @@ iPXE> dhcp
 Load the [netboot.xyz](https://netboot.xyz/docs/quick-start):
 
 ```text
-chain --autofree http://boot.netboot.xyz/ipxe/netboot.xyz.lkrn
+iPXE> chain --autofree http://boot.netboot.xyz/ipxe/netboot.xyz.lkrn
 ```
 
 Choose *iPXE shell* and then load a `*.ipxe`  from this repo.
 
 ```text
-chain https://raw.githubusercontent.com/audius/ipxe/master/rocky-10.ipxe
+iPXE> chain https://raw.githubusercontent.com/audius/ipxe/master/rocky-10.ipxe
 ```
